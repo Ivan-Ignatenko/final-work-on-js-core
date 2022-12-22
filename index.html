@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    
+    <div class="time">01:00</div>
+    <form class="main-form">
+        <input type="button" class="start" value="Start game!">
+        <input type="button" class="check deactivate" value="Check result">
+        <input type="button" class="new" value="New game">
+    </form>
+    <div class="container">
+        <div class="box left-box">
+            <div class="item item-1 drag">1</div>
+            <div class="item item-2 drag">2</div>
+            <div class="item item-3 drag">3</div>
+            <div class="item item-4 drag">4</div>
+            <div class="item item-5 drag">5</div>
+            <div class="item item-6 drag">6</div>
+            <div class="item item-7 drag">7</div>
+            <div class="item item-8 drag">8</div>
+            <div class="item item-9 drag">9</div>
+            <div class="item item-10 drag">10</div>
+            <div class="item item-11 drag">11</div>
+            <div class="item item-12 drag">12</div>
+            <div class="item item-13 drag">13</div>
+            <div class="item item-14 drag">14</div>
+            <div class="item item-15 drag">15</div>
+            <div class="item item-16 drag">16</div>
+        </div>
+        <div class="box right-box">
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+            <div class="item drop"></div>
+        </div>
+    </div>
+    <div class="modal hide">
+        <div class="modal-text">You still have time, sure?</div>
+        <form class="modal-form">
+            <input type="button" class="close" value="Close">
+            <input type="button" class="modal-check" value="Check">
+        </form>
+    </div>
+    <div class="alert-modal hide">
+        <div class="alert-modal-text"></div>
+        <button class="alert-close">Close</button>
+    </div>
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script src=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
